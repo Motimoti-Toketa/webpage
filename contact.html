@@ -27,7 +27,7 @@
                 this.contact_number.value = Math.random() * 100000 | 0;
 
                 // these IDs from the previous steps
-                emailjs.sendForm(service_obxcl4j, template_49episb, this)
+                emailjs.sendForm('service_obxcl4j', 'template_49episb', this)
                     .then(function() {
                       alert('送信されました');
                     }, function(error) {
