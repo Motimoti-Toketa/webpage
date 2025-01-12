@@ -99,7 +99,7 @@ body {
   text-decoration: none;
 }
 
-.item:hover,iframe:hover,.header-logo:hover,a:hover #name:hover,#email:hover,#message:hover{
+.item:hover,iframe:hover,.header-logo:hover,a:hover{
   opacity: 1;
   filter: drop-shadow(2px 2px 2px rgb(173, 174, 230));
   cursor: pointer;
