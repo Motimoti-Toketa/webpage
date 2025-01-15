@@ -68,7 +68,7 @@ body {
 
   background-color:black;
 
-  z-index: 1;
+  z-index: 100;
   
 }
 
@@ -99,6 +99,11 @@ body {
   text-decoration: none;
 }
 
+.line-it-button{
+  height: 65px;
+
+}
+
 .item:hover,iframe:hover,.header-logo:hover,a:hover{
   opacity: 1;
   filter: drop-shadow(2px 2px 2px rgb(173, 174, 230));
@@ -113,11 +118,15 @@ body {
 h2{
   filter: drop-shadow(2px 2px 2px rgb(173, 174, 230));
   margin:3px;
-  padding-left: 1%;
   border: 1px  rgba(255, 255, 255, 0.1) solid;
   background-image:
   repeating-linear-gradient( -45deg,rgba(255, 255, 255, 0.1) 0px 1px,	transparent 1px 10px),
   repeating-linear-gradient( 45deg,rgba(255, 255, 255, 0.1) 0px 1px,	transparent 1px 10px);
+  text-align: center;
+}
+
+h3,h4,h5,h6{
+  filter: drop-shadow(2px 2px 2px rgb(173, 174, 230));
   text-align: center;
 }
 
@@ -190,7 +199,7 @@ img.itemA{
 }
 
 .footer{
-  position: sticky;
+
   top: 100vh;
 
   text-align: center;
@@ -218,6 +227,7 @@ img.itemA{
 
 .center{
   display: flex;
+
   justify-content: center;
 }
 
@@ -245,4 +255,41 @@ form{
 
 #submit{
   border-radius: 5px;
+}
+
+.worklist li{
+  z-index: 1;
+  padding: 0;
+  margin-bottom: 5%;
+  border: solid 1px white;
+  background-image:
+  repeating-linear-gradient( -45deg,rgba(255, 255, 255, 0.1) 0px 1px,	transparent 1px 10px),
+  repeating-linear-gradient( 45deg,rgba(255, 255, 255, 0.1) 0px 1px,	transparent 1px 10px);
+
+}
+
+.worklist li iframe{
+  padding: 0%;
+  margin: 0;
+}
+
+.worklist{
+  display : flex;
+  flex-wrap : wrap-reverse;
+}
+
+table.info {
+	color: #eaf4fc;
+	border-collapse: collapse;
+	border: 1px solid #eaf4fc;
+}
+table.info th, table.info td {
+	padding: 8px 8px 8px 8px;
+	border: 1px solid #eaf4fc;
+	text-align: left;
+	vertical-align: middle;
+}
+table.info th {
+	background-color: #eaf4fc;
+	color: #19448e;
 }
