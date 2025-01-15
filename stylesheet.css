@@ -266,31 +266,17 @@ form{
   repeating-linear-gradient( -45deg,rgba(255, 255, 255, 0.1) 0px 1px,	transparent 1px 10px),
   repeating-linear-gradient( 45deg,rgba(255, 255, 255, 0.1) 0px 1px,	transparent 1px 10px);
 
+  max-width: 90%;
+
 }
 
 .worklist li iframe{
   padding: 0%;
   margin: 0;
-
+  max-width: 100%;
 }
 
 .worklist{
   display : flex;
   flex-wrap : wrap-reverse;
-}
-
-table.info {
-	color: #eaf4fc;
-	border-collapse: collapse;
-	border: 1px solid #eaf4fc;
-}
-table.info th, table.info td {
-	padding: 8px 8px 8px 8px;
-	border: 1px solid #eaf4fc;
-	text-align: left;
-	vertical-align: middle;
-}
-table.info th {
-	background-color: #eaf4fc;
-	color: #19448e;
 }
