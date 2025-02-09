@@ -33,6 +33,10 @@
     font-size: 2vw;
   }
 
+  .key-visual{
+    animation: loop-slide 5s infinite linear 1s ;
+  }
+
 }
 
 /*基本的な文字の設定*/
@@ -136,7 +140,7 @@ h3,h4,h5,h6{
   animation: loop-slide 20s infinite linear 1s ;
 
   justify-content: flex-start;
-  
+
 }
 
 @keyframes loop-slide {
